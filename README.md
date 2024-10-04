@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# TaskTracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TaskTracker is a simple, category-based task management application built using **ReactJS**, **TypeScript**, and **TailwindCSS**. It allows users to create categories, add tasks to those categories, and manage tasks by marking them as complete or deleting them.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add Categories**: Users can create categories for organizing their tasks.
+- **Add Tasks**: Tasks can only be added under a category.
+- **Task Management**: Users can mark tasks as complete or delete them.
+- **Local Storage**: All tasks and categories are saved locally, so they persist even after refreshing the page.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **ReactJS**: For building the user interface.
+- **TypeScript**: Ensures type safety and cleaner code.
+- **TailwindCSS**: For styling and responsive design.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/your-username/taskify.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate into the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd TaskTracker
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies:
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Run the application:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+5. Open your browser and go to:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Add a Category**: Input a category name and create categories.
+2. **Add a Task**: Select a category and create tasks under it.
+3. **Manage Tasks**: Mark tasks as done or delete them.
+4. **Persist Data**: Your tasks and categories are saved in local storage.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+
+Pull requests are welcome! For significant changes, please open an issue to discuss what you would like to change.
