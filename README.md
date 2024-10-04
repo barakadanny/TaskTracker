@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/taskify.git
+   git clone https://github.com/barakadanny/TaskTracker.git
    ```
 
 2. Navigate into the project directory:
